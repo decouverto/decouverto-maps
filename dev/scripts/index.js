@@ -121,6 +121,7 @@ function lookForUri() {
             var arr = mergeArray(centerMaps, firstPointMaps, 'code');
             displayMaps(arr);
             document.getElementById('no-data').style.display = 'none';
+            document.getElementById('walk-title').innerHTML = data.title;
             document.getElementById('data-received').style.display = 'block';
         });
     }
