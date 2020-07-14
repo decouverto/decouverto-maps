@@ -1,7 +1,7 @@
 {
-    "name": "hidden-message",
+    "name": "decouverto-maps",
     "version": "0.0.0",
-    "description": "A website to share encrypted messages which can be decrypted with some questions.",
+    "description": "A website to get maps references (e.g. IGN maps) for each Découverto walk.",
     "devDependencies": {
         "browser-sync": "^2.24.6",
         "browserify": "^13.3.0",
