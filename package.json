@@ -26,5 +26,10 @@
     "license": "MIT",
     "dependencies": {
         "find-ign-map": "^1.0.1"
+    },
+    "scripts": {
+        "preinstall": "npx npm-force-resolutions",
+        "build": "gulp",
+        "start": "gulp serve"
     }
 }
