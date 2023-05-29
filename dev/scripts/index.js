@@ -96,7 +96,7 @@ function displayMaps(arr) {
         div.appendChild(p5);
 
         var a = document.createElement('a');
-        a.href = 'https://ignrando.fr/boutique/catalogsearch/result/?q=' + el.code;
+        a.href = 'https://boutique.ign.fr/cartes/cartes-ign-france.html';
         a.innerHTML = 'Voir sur le site IGN';
         a.target = '_blank';
         div.appendChild(a);
